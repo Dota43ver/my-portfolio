@@ -8,11 +8,15 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium incidunt tenetur alias ea voluptate quis quos libero. Facere veritatis eveniet iure hic. Aliquid perferendis quibusdam, et ab nostrum, eveniet quos cupiditate, dolore harum ipsum doloribus. Nihil laudantium adipisci unde, rem repudiandae quis, aliquam, officia ut totam vel id expedita? Nisi?
+            My name is Facundo and I am a passionate web developer with experience in the PERN stack (PostgreSQL, Express, React, and Node.js). My work experience includes projects in the development of scalable and modern web applications. My formal education includes various courses and certifications in web development technologies, such as JavaScript, React, and Node.js.
+
+Some of my most prominent projects include the creation of a scalable e-commerce platform for a book company. In addition to my technical skills, I also have a strong interest in developing soft skills such as communication, leadership, and teamwork. I believe these skills are fundamental for success in any project and teamwork.
             </p>
             <br />
             <p className='text-xl'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius voluptatem a voluptate dolorum mollitia! Nihil impedit odit libero iusto pariatur? Explicabo sint est possimus velit voluptas laudantium adipisci accusantium assumenda? Perspiciatis corrupti saepe, quos esse sequi neque doloribus minus fugit. Nulla iste excepturi facilis voluptatum omnis quo, quos incidunt vero.
+            In my free time, I stay updated on the latest trends and technologies related to web development, and I also enjoy working on personal projects. My long-term goal is to continue developing my career in the field of web development and contribute to the growth and success of the companies I work for.
+
+If you're interested in learning more about my experience and skills, please do not hesitate to contact me. I am eager to connect and collaborate on interesting projects.
             </p>
         </div>
     </div>

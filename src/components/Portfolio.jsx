@@ -2,6 +2,7 @@ import React from "react";
 import Oasis from "../assets/portfolio/Oasis.JPG";
 import DogApp from "../assets/portfolio/DogApp.JPG"
 import MyPortfolio from "../assets/portfolio/Myportfolio.JPG"
+import Argenblog from "../assets/portfolio/argenblog.JPG"
 
 
 
@@ -25,6 +26,12 @@ const Portfolio = () => {
       demo: "https://oasis-library.vercel.app/",
       code: "https://github.com/Dota43ver/my-portfolio"
     },
+    {
+      id:4,
+      src: Argenblog,
+      demo: "https://argen-blog.vercel.app/",
+      code: "https://github.com/Dota43ver/Argen-blog"
+    }
     
   ];
 

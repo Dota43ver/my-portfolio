@@ -1,7 +1,5 @@
 import React from "react";
 import Oasis from "../assets/portfolio/Oasis.JPG";
-import DogApp from "../assets/portfolio/DogApp.JPG"
-import MyPortfolio from "../assets/portfolio/Myportfolio.JPG"
 import Argenblog from "../assets/portfolio/argenblog.JPG"
 
 
@@ -10,24 +8,13 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: DogApp,
-      demo: "https://pi-dogs-fuj6.vercel.app/",
-      code: "https://github.com/Dota43ver/PI-Dogs"
-    },
-    {
-      id: 2,
       src: Oasis,
       demo: "https://oasis-library.vercel.app/",
       code: "https://github.com/Dota43ver/OasisLibrary"
     },
+
     {
-      id: 3,
-      src: MyPortfolio,
-      demo: "https://oasis-library.vercel.app/",
-      code: "https://github.com/Dota43ver/my-portfolio"
-    },
-    {
-      id:4,
+      id:2,
       src: Argenblog,
       demo: "https://argen-blog.vercel.app/",
       code: "https://github.com/Dota43ver/Argen-blog"
@@ -38,7 +25,7 @@ const Portfolio = () => {
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen">
   <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
-    <div className="mb-8"> {/* Agrega margen abajo para separar del siguiente elemento */}
+    <div className="mb-8">
       <p className="text-4xl font-bold inline border-b-4 border-gray-500">
         Projects
       </p>

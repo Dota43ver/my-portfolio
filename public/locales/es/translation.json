@@ -18,5 +18,8 @@
   "input_contact_1": "Ingresa tu nombre",
   "input_contact_2": "Ingresa tu correo electrónico",
   "input_contact_3": "Ingresa tu mensaje",
-  "button_contact": "Hablemos"
+  "button_contact": "Hablemos",
+  "home_text1": "Soy Desarrollador Full Stack",
+  "home_text2": "Mi nombre es Facundo y construyo cosas para la web",
+  "home_text3": "Hola 👋,"
 }

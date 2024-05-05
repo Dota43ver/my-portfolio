@@ -1,0 +1,22 @@
+{
+  "about": "Sobre mí",
+  "home": "Inicio",
+  "portfolio": "Portafolio",
+  "experience": "Experiencia",
+  "contact": "Contacto",
+  "about_text": "Soy desarrollador web full stack, me gusta aprender nuevas tecnologías, aceptar desafios, trabajar/aprender en equipo y hacer deporte. ",
+  "experience_text1": "-Proyecto \"Weather App\": Desarrollé una aplicación web del clima utilizando react y CSS modules, haciendo consumo de una API.",
+  "experience_text2": "-Proyecto \"Argen-blog\": Aplicación web tipo Blog, utilicé Prisma, Mongodb, Node.js y firebase storage para el back-end y Next.js y CSS modules para el front-end. Cuenta con subida de imagenes, posteos, comentarios, ordenamiento de posteos por visualizacion.",
+  "experience_text3": "-Proyecto \"Oasis Library\": Proyecto realizado en equipo donde me encargué del Back-end. Se trata de un E-Commerce de libros implemente autenticaciones por email usando jwt encriptado de contraseñas con bcript implemente pasarela de pago de mercado pago dashboard de administrador y ayude en el front con el navbar y el filtrado y ordenado de libros.",
+  "experience_text4": "-Proyecto \"ezChat\": Aplicacion web de chat estilo WhatsApp utilizando react , css , zustand , react-toastify y emoji-picker-react para el front y todo el conjunto de firebase (storage firebase database y autentication) para el back",
+  "experience_text5": "-Proyecto \"SmartStyle\": Aplicacion web E-commerce de ropa , tecnologia y articulos de joyeria proyecto realizado en equipo donde me encargue del Front-end utilizando React y Tailwind CSS",
+  "projects": "Proyectos",
+  "projects_text": "Echa un vistazo a algunos de mis trabajos",
+  "stacks": "Mi stack de tecnologías",
+  "stacks_text": "Tecnologías con las que he estado trabajando recientemente",
+  "contact_text": "Envía el formulario que se encuentra a continuación para ponerte en contacto conmigo",
+  "input_contact_1": "Ingresa tu nombre",
+  "input_contact_2": "Ingresa tu correo electrónico",
+  "input_contact_3": "Ingresa tu mensaje",
+  "button_contact": "Hablemos"
+}

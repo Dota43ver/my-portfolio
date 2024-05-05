@@ -2,8 +2,11 @@ import React from "react";
 import Oasis from "../assets/portfolio/Oasis.JPG";
 import Argenblog from "../assets/portfolio/argenblog.JPG";
 import Ezchat from "../assets/portfolio/ezchat.JPG";
+import SmartStyle from "../assets/portfolio/SmartStyle.JPG";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+  const { t } = useTranslation();
   const portfolios = [
     {
       id: 1,
@@ -25,6 +28,12 @@ const Portfolio = () => {
       demo: "https://ez-chat-mocha.vercel.app/",
       code: "https://github.com/Dota43ver/ez-chat",
     },
+    {
+      id: 4,
+      src: SmartStyle,
+      demo: "https://c14-26-m-java-react.vercel.app/",
+      code: "https://github.com/No-Country/c14-26-m-java-react",
+    },
   ];
 
   return (
@@ -34,9 +43,9 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="mb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Projects
+            {t("projects")}
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">{t("projects_text")}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

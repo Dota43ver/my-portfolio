@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { useLanguage } from "../contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
+  const { t } = useTranslation();
   const [nav, setNav] = useState(false);
+  const { language, changeLanguage } = useLanguage();
+
+  const toggleLanguage = () => {
+    changeLanguage(language === "es" ? "en" : "es");
+  };
 
   const links = [
     {
@@ -38,19 +46,23 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
-          >
-            <Link to={link} smooth duration={500}>
-              {link}
+            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+            <Link
+              to={link}
+              smooth
+              duration={500}>
+              {t(link)}
             </Link>
           </li>
         ))}
+        <li className="px-4 cursor-pointer capitalize font-medium text-white-500 hover:scale-105 duration-200">
+          <button onClick={toggleLanguage}>{language.toUpperCase()}</button>
+        </li>
       </ul>
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
-      >
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
@@ -59,18 +71,19 @@ const NavBar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
-            >
+              className="px-4 cursor-pointer capitalize py-6 text-4xl">
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
-                duration={500}
-              >
-                {link}
+                duration={500}>
+                {t(link)}
               </Link>
             </li>
           ))}
+          <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
+            <button onClick={toggleLanguage}>{language.toUpperCase()}</button>
+          </li>
         </ul>
       )}
     </div>

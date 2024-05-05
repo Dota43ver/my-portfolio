@@ -8,8 +8,11 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import postgresql from "../assets/Postgresql.png";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   const techs = [
     {
       id: 1,
@@ -52,35 +55,37 @@ const Experience = () => {
       src: node,
       title: "Node.js",
       style: "shadow-green-600",
-      },
+    },
     {
       id: 8,
       src: postgresql,
       title: "Postgresql",
       style: "shadow-blue-800",
-      },  
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-"
-    >
+      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full md:h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-          My Tech Stack
+            {t("stacks")}
           </p>
-          <p className="py-6">Technologies I’ve been working with recently</p>
+          <p className="py-6">{t("stacks_text")}</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-            >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+              <img
+                src={src}
+                alt=""
+                className="w-20 mx-auto"
+              />
               <p className="mt-4">{title}</p>
             </div>
           ))}

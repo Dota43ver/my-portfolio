@@ -1,0 +1,22 @@
+{
+  "about": "About",
+  "home": "Home",
+  "portfolio": "Portfolio",
+  "experience": "Experience",
+  "contact": "Contact",
+  "about_text": "I am a full stack web developer, I like learning new technologies, accepting challenges, working/learning in a team, and doing sports.",
+  "experience_text1": "-Project \"Weather App\": I developed a weather web application using React and CSS modules, utilizing an API.",
+  "experience_text2": "-Project \"Argen-blog\": A Blog-type web application, I used Prisma, MongoDB, Node.js, and Firebase storage for the backend, and Next.js and CSS modules for the frontend. It features image uploading, posts, comments, and sorting of posts by views.",
+  "experience_text3": "-Project \"Oasis Library\": A team project where I was in charge of the Back-end. It's an E-Commerce site for books where I implemented email authentications using JWT and encrypted passwords with bcrypt. I implemented a payment gateway using MercadoPago, an admin dashboard, and helped with the front-end on the navbar and the filtering and sorting of books.",
+  "experience_text4": "-Project \"ezChat\": A WhatsApp-style chat web application using React, CSS, Zustand, react-toastify, and emoji-picker-react for the frontend, and the entire suite of Firebase (Firebase storage, Firebase database, and authentication) for the backend.",
+  "experience_text5": "-Project \"SmartStyle\": E-commerce web application for clothing, technology, and jewelry items. This was a team project where I handled the Front-end using React and Tailwind CSS.",
+  "projects": "Projects",
+  "projects_text": "Check out some of my work right here",
+  "stacks": "My Tech Stack",
+  "stacks_text": "Technologies I’ve been working with recently",
+  "contact_text": "Submit the form below to get in touch with me",
+  "input_contact_1": "Enter your name",
+  "input_contact_2": "Enter your email",
+  "input_contact_3": "Enter your message",
+  "button_contact": "Let's talk"
+}

@@ -8,6 +8,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import postgresql from "../assets/Postgresql.png";
+import angular from "../assets/Angular.png";
+import springboot from "../assets/springboot.png";
 import { useTranslation } from "react-i18next";
 
 const Experience = () => {
@@ -61,6 +63,18 @@ const Experience = () => {
       src: postgresql,
       title: "Postgresql",
       style: "shadow-blue-800",
+    },
+    {
+      id: 9,
+      src: angular,
+      title: "Angular",
+      style: "shadow-red-800",
+    },
+    {
+      id: 10,
+      src: springboot,
+      title: "Spring Boot",
+      style: "shadow-green-600",
     },
   ];
 

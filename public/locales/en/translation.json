@@ -10,6 +10,7 @@
   "experience_text3": "-Project \"Oasis Library\": A team project where I was in charge of the Back-end. It's an E-Commerce site for books where I implemented email authentications using JWT and encrypted passwords with bcrypt. I implemented a payment gateway using MercadoPago, an admin dashboard, and helped with the front-end on the navbar and the filtering and sorting of books.",
   "experience_text4": "-Project \"ezChat\": A WhatsApp-style chat web application using React, CSS, Zustand, react-toastify, and emoji-picker-react for the frontend, and the entire suite of Firebase (Firebase storage, Firebase database, and authentication) for the backend.",
   "experience_text5": "-Project \"SmartStyle\": E-commerce web application for clothing, technology, and jewelry items. This was a team project where I handled the Front-end using React and Tailwind CSS.",
+  "exprecience_text6": "-Project \"Angular-crud\": A basic CRUD application for creating, editing, and deleting products in a database system. The frontend is done using Angular and the backend is done using Spring Boot.",
   "projects": "Projects",
   "projects_text": "Check out some of my work right here",
   "stacks": "My Tech Stack",

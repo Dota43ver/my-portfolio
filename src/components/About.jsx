@@ -27,6 +27,8 @@ const About = () => {
         <p className="text-xl">{t("experience_text4")}</p>
         <br />
         <p className="text-xl">{t("experience_text5")}</p>
+        <br />
+        <p className="text-xl">{t("experience_text6")}</p>
       </div>
     </div>
   );

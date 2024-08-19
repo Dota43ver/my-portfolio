@@ -4,6 +4,7 @@ import Argenblog from "../assets/portfolio/argenblog.JPG";
 import Ezchat from "../assets/portfolio/ezchat.JPG";
 import SmartStyle from "../assets/portfolio/SmartStyle.JPG";
 import { useTranslation } from "react-i18next";
+import Angular from "../assets/portfolio/angular.JPG";
 
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -33,6 +34,12 @@ const Portfolio = () => {
       src: SmartStyle,
       demo: "https://c14-26-m-java-react.vercel.app/",
       code: "https://github.com/No-Country/c14-26-m-java-react",
+    },
+    {
+      id: 5,
+      src: Angular,
+      demo: "https://landing-angular-five.vercel.app/",
+      code: "https://github.com/Dota43ver/landing-angular",
     },
   ];
 

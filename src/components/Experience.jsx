@@ -11,6 +11,9 @@ import postgresql from "../assets/Postgresql.png";
 import angular from "../assets/Angular.png";
 import springboot from "../assets/springboot.png";
 import { useTranslation } from "react-i18next";
+import docker from "../assets/docker.png";
+import nginx from "../assets/nginx.jpg";
+import linux from "../assets/linux.jpg"
 
 const Experience = () => {
   const { t } = useTranslation();
@@ -76,6 +79,24 @@ const Experience = () => {
       title: "Spring Boot",
       style: "shadow-green-600",
     },
+    {
+      id: 11,
+      src: docker, 
+      title: "Docker",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 12,
+      src: linux, 
+      title: "Linux / Ubuntu",
+      style: "shadow-yellow-600",
+    },
+    {
+      id: 13,
+      src: nginx, 
+      title: "Nginx",
+      style: "shadow-green-500",
+    }
   ];
 
   return (

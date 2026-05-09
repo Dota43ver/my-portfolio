@@ -1,46 +1,38 @@
 import React from "react";
 import Oasis from "../assets/portfolio/Oasis.JPG";
-import Argenblog from "../assets/portfolio/argenblog.JPG";
-import Ezchat from "../assets/portfolio/ezchat.JPG";
 import SmartStyle from "../assets/portfolio/SmartStyle.JPG";
+import Facushop from "../assets/portfolio/facushop.PNG"; 
+import Clinic from "../assets/portfolio/clinic.JPG";
 import { useTranslation } from "react-i18next";
-import Angular from "../assets/portfolio/angular.JPG";
 
 const Portfolio = () => {
   const { t } = useTranslation();
+  
   const portfolios = [
     {
       id: 1,
-      src: Oasis,
-      demo: "https://oasis-library.vercel.app/",
-      code: "https://github.com/Dota43ver/OasisLibrary",
+      src: Facushop,
+      demo: "https://facushop.facudev.xyz/",
+      code: "https://github.com/Dota43ver/facushop",
     },
-
     {
       id: 2,
-      src: Argenblog,
-      demo: "https://argen-blog.vercel.app/",
-      code: "https://github.com/Dota43ver/Argen-blog",
+      src: Oasis,
+      demo: "https://oasis.facudev.xyz/",
+      code: "https://github.com/Dota43ver/OasisLibrary",
     },
-
     {
       id: 3,
-      src: Ezchat,
-      demo: "https://ez-chat-mocha.vercel.app/",
-      code: "https://github.com/Dota43ver/ez-chat",
-    },
-    {
-      id: 4,
       src: SmartStyle,
       demo: "https://c14-26-m-java-react.vercel.app/",
       code: "https://github.com/No-Country/c14-26-m-java-react",
     },
     {
-      id: 5,
-      src: Angular,
-      demo: "https://landing-angular-five.vercel.app/",
-      code: "https://github.com/Dota43ver/landing-angular",
-    },
+      id: 4,
+      src: Clinic,
+      demo: "https://salud.facudev.xyz/",
+      code: "https://github.com/Dota43ver/clinicapi-BACK",
+    }
   ];
 
   return (
@@ -63,7 +55,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 w-[500px] h-[200px] "
+                className="rounded-md duration-200 hover:scale-105 w-[500px] h-[200px] object-cover"
               />
               <div className="flex items-center justify-center">
                 <a
